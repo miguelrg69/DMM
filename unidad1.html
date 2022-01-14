@@ -53,11 +53,11 @@
 				<audio src="mecorroaaaa.mpeg" id="music"></audio>
 				<!--botones de reproduccion-->
 				<div class="">
-					<button onclick="document.getElementById('music').play()">play</button>
-					<button onclick="document.getElementById('music').pause()">pause</button>
-					<button onclick="document.getElementById('music').load()">stop</button>
-					<button onclick="document.getElementById('music').volume += .1">subir volumen</button>
-					<button onclick="document.getElementById('music').volume -= .1">bajar volumen</button>
+					<button class="btn btn-success" onclick="document.getElementById('music').play()">play</button>
+					<button class="btn btn-warning" onclick="document.getElementById('music').pause()">pause</button>
+					<button class="btn btn-danger" onclick="document.getElementById('music').load()">stop</button>
+					<button  class="btn btn-info" onclick="document.getElementById('music').volume += .1">subir volumen</button>
+					<button class="btn btn-info" onclick="document.getElementById('music').volume -= .1">bajar volumen</button>
 				</div>
       </div>
       <div class="modal-footer">
@@ -86,10 +86,10 @@
 					<source src="si.mp4" type="video/mp4">
 				</video>
 				<div class="">
-			<button onclick="playpause()">play/pause</button>
-			<button onclick="stop()">stop</button>
-			<button onclick="skip(10)">adelantar</button>
-			<button onclick="skip(-10)">atrasar</button>
+			<button class="btn btn-success" onclick="playpause()">play/pause</button>
+			<button class="btn btn-danger" onclick="stop()">stop</button>
+			<button  class="btn btn-info" onclick="skip(10)">adelantar</button>
+			<button  class="btn btn-info" onclick="skip(-10)">atrasar</button>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
