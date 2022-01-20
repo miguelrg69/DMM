@@ -6,7 +6,7 @@ const db = mysql.createConnection({
     port: 3306,
     user: 'root',
     password: '',
-    database: 'mqttnodepractica6'
+    database: 'practica6'
 })
 
 db.connect(() => {
