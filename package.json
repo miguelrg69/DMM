@@ -1,0 +1,27 @@
+{
+  "name": "dmm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelrg69/DMM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelrg69/DMM/issues"
+  },
+  "homepage": "https://github.com/miguelrg69/DMM#readme",
+  "dependencies": {
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.4",
+    "mysql": "^2.18.1",
+    "serialport": "^9.2.8"
+  }
+}

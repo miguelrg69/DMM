@@ -1,0 +1,16 @@
+{
+  "name": "practica8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "serialport": "^9.2.8"
+  }
+}
