@@ -6,7 +6,7 @@ const db = mysql.createConnection({
     port: 3306,
     user: 'root',
     password: '',
-    database: 'practica7'
+    database: 'practicas'
 })
 
 db.connect(() => {
@@ -25,8 +25,8 @@ sub.on('message', (topic, message) => {
     message = parseInt(message[1])
     console.log(message)
     db.query(
-        'insert into ard2 set ?',
-        {dist: message},
+        'insert into infra set ?',
+        {data: message},
         (err, rows) => {
             if(!err) console.log('data saved!')
         }
